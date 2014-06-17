@@ -1,0 +1,21 @@
+{
+    "name": "mgburns/composer-test-plugin",
+    "type": "wordpress-plugin",
+    "description": "A useless plugin for Composer testing.",
+    "keywords"   : ["wordpress", "composer", "test"],
+    "homepage"   : "https://github.com/mgburns/composer-test-plugin",
+    "license"    : "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Mike Burns",
+            "email": "mgburns@bu.edu"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "support"    : {
+        "issues": "https://github.com/mgburns/composer-test-plugin/issues",
+        "source": "https://github.com/mgburns/composer-test-plugin"
+    }
+}
